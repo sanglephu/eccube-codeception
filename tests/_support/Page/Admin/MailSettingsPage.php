@@ -4,7 +4,7 @@
 namespace Page\Admin;
 
 
-class MailSettingsPage extends AbstractAdminPage
+class MailSettingsPage extends AbstractAdminPageStyleGuide
 {
     public static $登録完了メッセージ = '#main .container-fluid .alert-success';
 
