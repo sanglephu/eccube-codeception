@@ -144,8 +144,6 @@ class EA06ContentsManagementCest
         $config = Fixtures::get('config');
         $I->seeElement('div.ec-layoutRole__main');
 
-        $I->getScenario()->incomplete('未実装：レイアウトの更新は未実装');
-
         /* レイアウト編集 */
         LayoutManagePage::go($I)->レイアウト編集('下層ページ用レイアウト');
         LayoutEditPage::at($I)
