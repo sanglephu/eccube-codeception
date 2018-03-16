@@ -147,7 +147,7 @@ class EA06ContentsManagementCest
         /* レイアウト編集 */
         LayoutManagePage::go($I)->レイアウト編集('下層ページ用レイアウト');
         LayoutEditPage::at($I)
-            ->ブロックを移動('新着情報', '#position_5')
+//            ->ブロックを移動('新着情報', '#position_5')
             ->登録();
 
         $I->see('登録が完了しました。', LayoutEditPage::$登録完了メッセージ);
